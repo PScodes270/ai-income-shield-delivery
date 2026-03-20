@@ -16,12 +16,11 @@ User → Backend → Weather API → ML Model → Claim Engine → Payment Syste
 - Payment Gateway: Processes payouts
 
 ## Tech Stack
-- Frontend: React
-- Backend: Node.js, Express
-- ML Model: Python (Scikit-learn)
-- APIs: OpenWeather API
-- Database: MongoDB
-- Payments: Razorpay (Test Mode)
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Python (Flask)  
+- ML Model: Python  
+- APIs: OpenWeather API  
+- Database: MySQL  
 
  ## Demo Video
 [Watch here](your-youtube-link)
