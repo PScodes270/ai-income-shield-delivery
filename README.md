@@ -1,17 +1,27 @@
-# ai-income-shield-delivery
-Smart AI-driven income protection system for gig delivery workers, enabling real-time risk detection, automated claim triggering, and instant compensation based on external disruptions.
+## Problem
+Delivery partners often lose 20–30% of their income due to external disruptions such as heavy rain, extreme heat, and pollution. Currently, there is no automated system to protect their income during such events.
+
+## Solution
+We propose an AI-powered parametric insurance platform that monitors real-world conditions and automatically compensates delivery workers when their income is affected. The system uses predictive modeling and predefined triggers to detect disruptions and initiate instant payouts without manual claims.
 
 
-## Features
-- AI-based income prediction
-- Automated claim triggering
-- Real-time weather monitoring
-- Fraud detection system
-- Weekly pricing model
+## Architecture
+User → Backend → Weather API → ML Model → Claim Engine → Payment System
 
-## Demo Flow
-1. User logs in
-2. Weather disruption occurs
-3. Income drop detected
-4. Claim triggered automatically
-5. Instant payout processed
+- Frontend: User interface for onboarding and tracking
+- Backend: Handles logic and APIs
+- ML Model: Predicts expected income
+- Weather API: Provides real-time disruption data
+- Claim Engine: Triggers automatic claims
+- Payment Gateway: Processes payouts
+
+## Tech Stack
+- Frontend: React
+- Backend: Node.js, Express
+- ML Model: Python (Scikit-learn)
+- APIs: OpenWeather API
+- Database: MongoDB
+- Payments: Razorpay (Test Mode)
+
+ ## Demo Video
+[Watch here](your-youtube-link)
